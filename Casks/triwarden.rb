@@ -1,13 +1,13 @@
 cask "triwarden" do
-  version "0.1.1"
-  sha256 "0bdcb63bdb7d91029d7c08aea0907ed021e25ad348fddb449ecf7d330b484c43"
+  version "0.2.1"
+  sha256 "bbb8e403c2e8b6ab24fc33af064e39d8381e5850d62f3fa2d13b849d30762ae1"
 
   url "https://github.com/sinhong2011/triwarden/releases/download/v#{version}/Triwarden-#{version}.dmg"
   name "Triwarden"
   desc "Native macOS client for Vaultwarden and Bitwarden"
   homepage "https://github.com/sinhong2011/triwarden"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Triwarden.app"
   binary "#{appdir}/Triwarden.app/Contents/MacOS/tw"
