@@ -1,6 +1,6 @@
 cask "triwarden" do
-  version "0.2.1"
-  sha256 "bbb8e403c2e8b6ab24fc33af064e39d8381e5850d62f3fa2d13b849d30762ae1"
+  version "0.3.0"
+  sha256 "ee1625e687b38447edce3ac128638695d5d7fc61e49a52dc35918d24ba8576ac"
 
   url "https://github.com/sinhong2011/triwarden/releases/download/v#{version}/Triwarden-#{version}.dmg"
   name "Triwarden"
