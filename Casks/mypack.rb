@@ -1,6 +1,6 @@
 cask "mypack" do
-  version "0.6.0"
-  sha256 "00c4eaabbee2ecbfff09fc2846de51d077ca8be2ec9173db304acf42cc839d6e"
+  version "0.6.1"
+  sha256 "1209b1d7ba7632c6723226bfad85ee0ee4fc0178f8f2a0adc3e3b82689349e65"
 
   url "https://github.com/sinhong2011/mypack/releases/download/v#{version}/mypack-#{version}.dmg"
   name "MyPack"
